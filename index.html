@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Places you've been!</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Places You've Been</h1>
+    <form id = "form-group">
+      <label for="location">Name of Place</label>
+      <input type="text" id="location"><br>
+      <label for="month">Month Visited:</label>
+      <input type="text" id="month"><br>
+      <label for="days">Duration of stay (days):</label>
+      <input type="text" id="days"><br>
+      <label for="favoriteThings">Favorite things:</label>
+      <input type="text" id="favoriteThings"><br>
+      <button type="submit">Submit!</button>
+    </form>
+    <hr>
+    <h2>Places You've Been</h2>
+    <ul id="places"></ul>
+  </div>
+
+  <div class="col-md-6">
+    <div id="show-place">
+    <p>Location: <span class="where"></span></p>
+    <p>Month Visited: <span class="when"></span></p>
+    <p>Duration of Stay: <span class="how-long"></span></p>
+    <p>Favorite Things: <span class="favorite-thing"></span></p>
+  </div> 
+</body>
+</html>
+
+

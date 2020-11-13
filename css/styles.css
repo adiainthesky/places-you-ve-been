@@ -1,0 +1,22 @@
+#show-place {
+  display: none;
+}
+
+/* body {
+  background-color: lightblue;
+  /* background-image: url(https://cdn5.vectorstock.com/i/1000x1000/84/34/travel-concept-traveling-background-vector-20328434.jpg);
+} */ */
+
+form {
+  background-color: yellow;
+  border-style: groove;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+
